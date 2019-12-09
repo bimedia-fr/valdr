@@ -166,8 +166,6 @@ module.exports = function (grunt) {
   grunt.registerTask('test-all', ['karma']);
 
   grunt.registerTask('build', [
-    'jshint:all',
-    'karma:unit',
     'concat:core',
     'concat:message',
     'concat:banner',
