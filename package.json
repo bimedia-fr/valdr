@@ -7,9 +7,6 @@
     "type": "git",
     "url": "git://github.com/netceteragroup/valdr"
   },
-  "scripts": {
-    "postinstall": "bower install"
-  },
   "author": {
     "name": "Netcetera AG"
   },
