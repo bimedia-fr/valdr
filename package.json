@@ -10,6 +10,9 @@
   "author": {
     "name": "Netcetera AG"
   },
+  "scripts": {
+    "postinstall": "bower install"
+  },
   "license": "MIT",
   "devDependencies": {
     "bower": "~1.3.12",
@@ -23,6 +26,7 @@
     "grunt-contrib-watch": "~0.6.1",
     "grunt-express": "^1.4.1",
     "grunt-karma": "~0.8.2",
+    "grunt-parallel": "^0.5.1",
     "karma": "~0.12.31",
     "karma-chrome-launcher": "~0.1.7",
     "karma-coverage": "~0.2.7",
@@ -31,8 +35,5 @@
     "karma-jasmine": "~0.1.5",
     "karma-phantomjs-launcher": "0.1.4",
     "load-grunt-tasks": "~2.0.0"
-  },
-  "dependencies": {
-    "grunt-parallel": "^0.5.1"
   }
 }
